@@ -1,8 +1,8 @@
 # paul-skills-public
 
 Claude Code skills, packaged as a plugin marketplace: working rules for every session,
-delegating to subagents and verifying what comes back, reviews, and writing code — secure code
-included.
+delegating to subagents and verifying what comes back, reviews, prompt engineering, and writing
+code — secure code included.
 
 They are exported from a private skill set with the personal context removed, and re-exported
 when the originals change.
@@ -30,6 +30,7 @@ of the plugin — and the reason to read `plugins/paul-base/skills/base-conduct/
 |---|---|---|
 | `paul-base` | `base-conduct` | Standing working rules for every task in every folder |
 | `paul-base` | `delegation` | How the main model decides whether to hand work to a paul-base subagent instead of doing it in-session |
+| `paul-base` | `prompt-engineering` | Write or fix a prompt, system prompt, or set of instructions that will be sent to a language model |
 | `paul-base` | `review` | How to review a piece of work |
 | `paul-base` | `troubleshoot` | How to troubleshoot a broken command or a divergent environment on a Windows work machine (Windows 11, PowerShell 5.1) |
 | `paul-base` | `voice-profile` | Build or extend a voice profile |

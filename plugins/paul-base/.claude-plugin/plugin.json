@@ -1,7 +1,7 @@
 {
   "name": "paul-base",
-  "version": "0.13.0",
-  "description": "Working rules that apply in every context - ask before building, simplicity first, surgical changes, verifiable goals, caution beyond the local machine - kept always-on by a SessionStart hook; plus subagent delegation, reviews, voice profiles, work-directory layout, and a Windows troubleshooting method.",
+  "version": "0.13.1",
+  "description": "Working rules that apply in every context - ask before building, simplicity first, surgical changes, verifiable goals, caution beyond the local machine - kept always-on by a SessionStart hook; plus subagent delegation, reviews, prompt engineering, voice profiles, work-directory layout, and a Windows troubleshooting method.",
   "author": {
     "name": "Paul Fischer"
   },
@@ -10,6 +10,7 @@
     "conduct",
     "guidelines",
     "delegation",
-    "review"
+    "review",
+    "prompt-engineering"
   ]
 }

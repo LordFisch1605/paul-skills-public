@@ -4,14 +4,14 @@
     "name": "Paul Fischer"
   },
   "metadata": {
-    "description": "Claude Code skills for how an agent should work: conduct rules for every session, delegating to subagents and verifying what comes back, reviews, and writing code - secure code included."
+    "description": "Claude Code skills for how an agent should work: conduct rules for every session, delegating to subagents and verifying what comes back, reviews, prompt engineering, and writing code - secure code included."
   },
   "plugins": [
     {
       "name": "paul-base",
       "source": "./plugins/paul-base",
-      "description": "Working rules that apply in every context - ask before building, simplicity first, surgical changes, verifiable goals, caution beyond the local machine - kept always-on by a SessionStart hook; plus subagent delegation, reviews, voice profiles, work-directory layout, and a Windows troubleshooting method.",
-      "version": "0.13.0",
+      "description": "Working rules that apply in every context - ask before building, simplicity first, surgical changes, verifiable goals, caution beyond the local machine - kept always-on by a SessionStart hook; plus subagent delegation, reviews, prompt engineering, voice profiles, work-directory layout, and a Windows troubleshooting method.",
+      "version": "0.13.1",
       "author": {
         "name": "Paul Fischer"
       },
@@ -19,7 +19,8 @@
         "conduct",
         "guidelines",
         "delegation",
-        "review"
+        "review",
+        "prompt-engineering"
       ],
       "category": "workflow"
     },

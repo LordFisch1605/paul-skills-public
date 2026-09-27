@@ -1,0 +1,44 @@
+{
+  "name": "paul-skills-public",
+  "owner": {
+    "name": "Paul Fischer"
+  },
+  "metadata": {
+    "description": "Claude Code skills for how an agent should work: conduct rules for every session, delegating to subagents and verifying what comes back, reviews, and writing code - secure code included."
+  },
+  "plugins": [
+    {
+      "name": "paul-base",
+      "source": "./plugins/paul-base",
+      "description": "Working rules that apply in every context - ask before building, simplicity first, surgical changes, verifiable goals, caution beyond the local machine - kept always-on by a SessionStart hook; plus subagent delegation, reviews, voice profiles, work-directory layout, and a Windows troubleshooting method.",
+      "version": "0.13.0",
+      "author": {
+        "name": "Paul Fischer"
+      },
+      "keywords": [
+        "conduct",
+        "guidelines",
+        "delegation",
+        "review"
+      ],
+      "category": "workflow"
+    },
+    {
+      "name": "paul-dev",
+      "source": "./plugins/paul-dev",
+      "description": "How code is written in any language - conventions for Java, TypeScript/Angular, Python and shell, and the ways AI-generated code goes wrong; secure-coding rules with the evidence behind each; and turning unfamiliar code into a storyboard or a method reference you can learn from.",
+      "version": "0.5.1",
+      "author": {
+        "name": "Paul Fischer"
+      },
+      "keywords": [
+        "coding",
+        "conventions",
+        "security",
+        "diagrams",
+        "visualisation"
+      ],
+      "category": "development"
+    }
+  ]
+}

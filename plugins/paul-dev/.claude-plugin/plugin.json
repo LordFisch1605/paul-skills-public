@@ -1,0 +1,16 @@
+{
+  "name": "paul-dev",
+  "version": "0.5.1",
+  "description": "How code is written in any language - conventions for Java, TypeScript/Angular, Python and shell, and the ways AI-generated code goes wrong; secure-coding rules with the evidence behind each; and turning unfamiliar code into a storyboard or a method reference you can learn from.",
+  "author": {
+    "name": "Paul Fischer"
+  },
+  "license": "LicenseRef-PolyForm-Shield-1.0.0",
+  "keywords": [
+    "coding",
+    "conventions",
+    "security",
+    "diagrams",
+    "visualisation"
+  ]
+}
